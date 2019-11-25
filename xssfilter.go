@@ -37,8 +37,6 @@ func PtrXssFilter(data interface{}) {
 	value := dvalue.Elem()
 	dealNoMapType(value)
 
-	return
-
 }
 
 func SliceXssFilter(data interface{}) {
@@ -96,8 +94,6 @@ func structXssFilter(data interface{}) {
 		value := elemValue.Field(i)
 		dealNoMapType(value)
 	}
-
-	return
 
 }
 
