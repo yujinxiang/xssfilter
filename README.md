@@ -29,3 +29,8 @@ func main() {
 	fmt.Println(fmt.Sprintf("%+v", sdata), err)
 
 }
+
+output:
+{Name:&lt;张三&gt; Grade:&lt;女&gt;} <nil>
+map[key1:&lt;value1&gt; key2:map[key2_1:&lt;value2_1&gt;]] <nil>
+[&lt;fasfsf&gt; &lt;rrrrrr&gt;] <nil>
