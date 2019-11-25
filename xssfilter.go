@@ -8,8 +8,6 @@ import (
 )
 
 func XssFilter(data interface{}) (err error) {
-	
-	print("====================================")
 
 	value := reflect.ValueOf(data)
 
